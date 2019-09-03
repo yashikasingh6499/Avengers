@@ -9,6 +9,8 @@ class bcolors:
     ENDC = '\033[0m'
     BOLD = '\033[1m'
     UNDERLINE = '\033[4m'
+    
+#person class
 
 class Person:
     def __init__(self,name,hp,mp,atk,df,magic,items):
